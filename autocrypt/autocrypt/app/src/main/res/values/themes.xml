@@ -14,7 +14,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="progressbar_color_under_api21">
+        <item name="colorAccent">@color/colorAccent</item></style>
+
     <style name="LargeText">
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">17.5sp</item>
     </style>
 </resources>

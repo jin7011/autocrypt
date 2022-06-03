@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFD464</color>
+    <color name="textcolor">#8a000000</color>
+    <color name="semi_black">#CD000000</color>
+    <color name="dividecolor">#57000000</color>
+    <color name="selectcolor">#61F8BBD0</color>
+    <color name="selectcolor_rec">#0FF8BBD0</color>
+    <color name="recomment_background">#2DD4CEDA</color>
+    <color name="recomment_background_rec">#19D4CEDA</color>
+    <color name="Transparency">#00ff0000</color>
+    <color name="colorAccent">#FF408C</color>
+    <color name="classicBlue">#004680</color>
+    <color name="invisible">#A34A4A4A</color>
+    <color name="ultra_gray">#939597</color>
+    <color name="illuminating_yellow">#f5df4d</color>
+    <color name="pantone">#ff6d70</color>
+    <color name="sea_pink">#cc8080</color>
+    <color name="conch_shell">#fb8c98</color>
+    <color name="living_coral">#cc8080</color>
+    <color name="darger_blue">#1E90FF</color>
+    <color name="midi_blue">#0000CD</color>
+    <color name="deep_blue">#00008B</color>
+    <color name="night">#1A2436</color>
+    <color name="night_white">#A4B6BF</color>
+    <color name="ic_Background">#FAF099</color>
+    <color name="autoBackroung">#181818</color>
+</resources>

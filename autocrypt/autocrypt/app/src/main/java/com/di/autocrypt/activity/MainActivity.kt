@@ -149,8 +149,8 @@ class MainActivity : AppCompatActivity() , OnMapReadyCallback, LocationListener{
                         tag = center
                         position = LatLng(center.lat.toDouble(), center.lng.toDouble())
                         when(center.centerType){
-                            "중앙/권역" -> marker.icon = OverlayImage.fromResource(com.naver.maps.map.R.drawable.navermap_default_marker_icon_lightblue)
-                            "지역" -> marker.icon = OverlayImage.fromResource(com.naver.maps.map.R.drawable.navermap_default_marker_icon_red)
+                            "중앙/권역" -> marker.icon = OverlayImage.fromResource(com.naver.maps.map.R.drawable.navermap_default_marker_icon_yellow)
+                            "지역" -> marker.icon = OverlayImage.fromResource(com.naver.maps.map.R.drawable.navermap_default_marker_icon_green)
                             else -> marker.icon = OverlayImage.fromResource(com.naver.maps.map.R.drawable.navermap_default_marker_icon_black)
                         }
 //                        width = resources.getInteger(R.integer.marker_size) 마커 크기조절
