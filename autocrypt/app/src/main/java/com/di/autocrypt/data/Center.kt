@@ -15,6 +15,8 @@ data class Center(
     val sido:String,
     @SerializedName("sigungu") @Expose
     val sigungu:String,
+    @SerializedName("centerName") @Expose
+    val centerName:String,
     @SerializedName("facilityName") @Expose
     val facilityName:String,
     @SerializedName("zipCode") @Expose
