@@ -8,11 +8,11 @@ import javax.inject.Singleton
 @Singleton
 class RoomRepository  @Inject constructor(private val centerDAO: CenterDAO){
 
-    fun getCenters() = centerDAO.getAll()
+    suspend fun getCenters() = centerDAO.getAll()
 
-    fun insertCenters(centers:List<Center>) = centerDAO.insertAll(centers)
+    suspend fun insertCenters(centers:List<Center>) = centerDAO.insertAll(centers)
 
-    fun getCenter(centerID:String) = centerDAO.getCenter(centerID)
+    suspend fun getCenter(centerID:String) = centerDAO.getCenter(centerID)
 
-    fun deleteAll() = centerDAO.delete()
+    suspend fun deleteAll() = centerDAO.delete()
 }

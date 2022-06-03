@@ -26,7 +26,6 @@ class Splash : AppCompatActivity() {
 
     @Inject
     lateinit var repository: Repository
-
     @Inject
     lateinit var roomRepository: RoomRepository
     lateinit var binding: ActivitySplashBinding
@@ -70,6 +69,7 @@ class Splash : AppCompatActivity() {
                     }
 
                     if (it == 100 && roomSize() == 100) {
+                        log("${roomSize()}")
                         GoMain()
                     }
                 }
