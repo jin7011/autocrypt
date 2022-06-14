@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
+import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
@@ -29,7 +30,7 @@ class Splash : AppCompatActivity() {
     @Inject
     lateinit var roomRepository: RoomRepository
     lateinit var binding: ActivitySplashBinding
-    lateinit var viewModel: SplashViewModel
+    private val viewModel : SplashViewModel by viewModels()
     private val TAG = "Splash"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,8 +52,6 @@ class Splash : AppCompatActivity() {
     }
 
     fun setViewmodel(lifecycleOwner: LifecycleOwner) {
-        viewModel = ViewModelProvider(this)[SplashViewModel::class.java]
-
         viewModel.run {
             timerStart()
 //            getCenters()

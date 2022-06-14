@@ -50,10 +50,12 @@ dependencies {
     //뷰모델
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.activity:activity-ktx:1.4.0'
+    implementation 'androidx.fragment:fragment-ktx:1.4.1'
 
     // 네이버 지도 SDK
     implementation 'com.naver.maps:map-sdk:3.15.0'
-    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
 
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0' // 레트로핏
